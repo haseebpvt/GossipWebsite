@@ -1,5 +1,4 @@
-# GossipWebsite
-A website about Gossip chatting application
+# Gossip Chat Website
 
 Website link: https://mychat-c483b.firebaseapp.com
 
