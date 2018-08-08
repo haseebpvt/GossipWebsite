@@ -1,6 +1,7 @@
  * {
   margin: 0;
   padding: 0;
+  background: #000;
  }
 
 ul {
@@ -8,7 +9,11 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #808080;
+    background-color: #000;
+}
+.title:hover{
+    color: #ff0026;
+    transition: 1s;
 }
 
 li {
@@ -26,12 +31,12 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #c0392b;
+    color: #c0392b;
     transition: 2s;
 }
 
 .active {
-    background-color: #ff0026;
+    color: #ff0026;
 }
 .img{
     height: 555px;
@@ -48,6 +53,7 @@ li a:hover:not(.active) {
 }
  h3,h3,h1{
  font-family: Pacifico, Calibri;
+ color: #fcfcfc;
 
  }
  .link{

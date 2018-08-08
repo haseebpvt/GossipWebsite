@@ -1,6 +1,7 @@
  * {
   margin: 0;
   padding: 0;
+  background: #000;
  }
 
 ul {
@@ -8,13 +9,16 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #808080;
+    background-color: #000;
 }
 
 li {
     float: right;
 }
-
+.title:hover{
+    color: #ff0026;
+    transition: 1s;
+}
 li a {
     display: block;
     color: white;
@@ -26,28 +30,17 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #c0392b;
+    color: #c0392b;
     transition: 2s;
 }
 
 .active {
-    background-color: #ff0026;
-}
-   float: right;
+    color: #ff0026;
 }
 .text{
  position: absolute;
  left: 40%;
  top: 45%;
  transform: translateX(-50%) translateY(-50%);
+ color: #fff;
  
-
- .link{
-    text-decoration: none;
-    color: #808080;
-    font-family: Pacifico, Calibri;
-
- }
- .link:hover{
-    color: #c0392b;
- }
