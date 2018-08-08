@@ -28,6 +28,8 @@ li a {
     font-size: 20px;
     padding: 17px 20px;
     text-decoration: none;
+     font-family:  monospace;
+
 }
 
 li a:hover:not(.active) {
@@ -55,7 +57,7 @@ li a:hover:not(.active) {
  
 }
  h3,h3,h1{
- font-family: Pacifico, Calibri;
+ font-family:  monospace;
  color: #fcfcfc;
 
  }

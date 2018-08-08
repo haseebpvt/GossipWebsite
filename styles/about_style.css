@@ -27,6 +27,8 @@ li a {
     font-size: 20px;
     padding: 17px 20px;
     text-decoration: none;
+     font-family:  monospace;
+
 }
 
 li a:hover:not(.active) {
@@ -43,6 +45,5 @@ li a:hover:not(.active) {
  top: 45%;
  transform: translateX(-50%) translateY(-50%);
  color: #fff;
- font-family: Pacifico, Calibri;
-
+ font-family:  monospace;
  
