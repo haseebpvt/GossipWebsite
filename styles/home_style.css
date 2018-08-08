@@ -34,7 +34,10 @@ li a:hover:not(.active) {
     color: #c0392b;
     transition: 2s;
 }
-
+.play_button:hover{
+    border: #808080 solid 1px;
+    transition: 2s;
+}
 .active {
     color: #ff0026;
 }
