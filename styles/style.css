@@ -7,33 +7,54 @@ body {
  background-color: #000;
  }
 
- h1 {
+.next {
+     
+      animation-name: jump;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      position: absolute;
+      left: 45%;
+      top: 60%;
+      transform: translateX(-50%) translateY(-50%);
 
- position: absolute;
- left: 50%;
- top: 40%;
- transform: translateX(-50%) translateY(-50%);
- text-align: center;
- font-family: Lucida Console, Courier, monospace;;
- font-size: 70px;
- 
- }
- h2{
- position: absolute;
- left: 50%;
- top: 70%;
- transform: translateX(-50%) translateY(-50%);
- text-align: center;
- font-family: Lucida Console, Courier, monospace;;
- font-size: 40px;
- color: #420505;
- }
- 
-a{
-  text-decoration: none;
-  color: #ff0026;
+     
+
+
+    }
+
+
+@keyframes jump {
+  from, 20%, 53%, 80%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+
+  40%, 43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0,-4px,0);
+    transform: translate3d(0,-4px,0);
+  }
 }
-a:hover{
-  color: #fff;
-  transition: 1s;
+
+.jump {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
 }
